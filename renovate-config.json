@@ -40,6 +40,9 @@
       "allowedVersions": "<0.40.0"
     }
   ],
+  "docker-compose": {
+    "managerFilePatterns": ["/(?:docker-)?compose[^/]*\.ya?ml$/"]
+  },
   "customManagers": [
     {
       "customType": "regex",
